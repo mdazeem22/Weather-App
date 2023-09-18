@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: montserrat, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container{
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    background-color: #ffff;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+
+}
+
+form{
+    margin: 20px 0px;
+}
+
+form input[type="text"]{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    width: 60%;
+}
+
+form input[type="submit"]{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+form input[type="submit"]:hover{
+    background-color: #0062cc;
+}
+
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 10px 0px;
+}
+.temperature{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.description{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.details{
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.details > div{
+    margin: 10px;
+    flex: 1;
+    padding: 30px 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    background-color: #f2f2f2;
+    max-height: 20px;
+}
